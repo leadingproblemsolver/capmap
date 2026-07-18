@@ -1,0 +1,33 @@
+repo:
+  name: capmap
+  account: shawrmam8
+  visibility: public
+  classification: foundational
+  status: active
+  canonical: true
+  canonical_ref: null
+  fork_of: null
+
+description:
+  one_liner: "CSV-in → Gemini-driven KPI synthesis → multi-format export (CSV/XLSX/viz)."
+  problem: "Turning raw operational CSVs into KPI narratives is manual and inconsistent."
+  proof: "Export pipeline implemented. NAME COLLISION FLAG: unrelated 'Capmap' product exists on Advant0-st4r — do not conflate."
+
+signals:
+  primary: "third-party API integration (Gemini) + multi-format export engineering"
+  secondary: ["data transformation pipeline design"]
+  audience: employer
+
+evidence:
+  level: 1
+  verified: ["export pipeline runs CSV to XLSX/viz"]
+  unverified: ["KPI synthesis quality against real business data"]
+  missing: ["disambiguation from Advant0-st4r/Capmap before any external citation"]
+
+links:
+  live_demo: null
+  ci_badge: null
+  license: "MIT"
+
+topics: ["data-pipeline", "gemini-api", "kpi", "export"]
+last_synced: "2026-07-17"
